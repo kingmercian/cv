@@ -1,0 +1,31 @@
+<body style="padding:24px;" cz-shortcut-listen="true">
+  <p style="text-align: center;"><img src="https://cdn.jotfor.ms/img/check-icon.png" alt="" width="128" height="128"></p>
+<div style="text-align: center;">
+<h1 style="text-align: center;">Thank You!</h1>
+<p style="text-align: center;">Your message has been received.</p>
+</div>
+  <script type="text/javascript">
+    if (window.parent !== window) { 
+        var margin = parseInt($$('body')[0].getStyle('margin-top')) + parseInt($$('body')[0].getStyle('margin-bottom'));
+        var height = parseInt($$('body')[0].getHeight())+margin;
+        window.parent.postMessage('setHeight:' + height, '*');
+    }
+  </script>
+
+<script type="text/javascript">
+
+var timer = 3; //seconds
+
+ website = "http://kingmercian.github.io/cv//#contact"
+
+function delayer() {
+
+ window.location = website;
+
+}
+
+setTimeout('delayer()', 1000 * timer); 
+
+</script>
+
+</body>
